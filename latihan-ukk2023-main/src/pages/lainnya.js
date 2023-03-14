@@ -6,7 +6,7 @@ let nominal= document.getElementById('input')
         if (nominal.value == '') {
             alert('nominal tidak boleh kosong')
         }
-        else if (nominal.value < 0) {
+        else if (nominal.value <= 0) {
             alert('nominal tidak boleh minus')
         }
         else if (nominal.value > saldo) {
